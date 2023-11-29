@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
+body {
+    align-items: center;
+}
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: "Manrope";
+    font-size: 12px;
+
+}
+
+.list-group {
+    width: 100%;
+    justify-content: space-around;
+    background-color: #252F3D;
+    border-radius: 0;
+}
+
+.top-container {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.second-container {
+    display: flex;
+    width: 100%;
+    padding: 30px 127px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-right {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.first-text {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.step-bar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.check-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.main-content {
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+    max-width: 1400px;
+    align-self: center;
+}
+
+.main-review {
+    display: flex;
+    width: 575px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.main-description {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 24px;
+}
+
+.description-item {
+    padding-right: 24px;
+    gap: 32px;
+    width: 100%;
+}
+
+.description-item-inner {
+    display: flex;
+    width: 100%;
+}
+
+.description-item-text {
+    margin: 0;
+    width: 100%;
+    display: inline;
+    justify-content: space-between;
+    padding-left: 24px;
+    height: max-content;
+}
+
+.description-item-first {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.description-item-second {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.description-item-third {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+}
+
+.text-description-item {
+    margin: 0;
+    color: #4D5254;
+    font-size: 16px;
+    font-family: "Manrope";
+    font-weight: 400;
+    line-height: 22.40px;
+    word-wrap: break-word
+}
+
+.description-item-first-internal {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.clarifion-air-ionizer {
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    font-family: "Manrope";
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+
+.crossed-out-price {
+    margin: 0;
+    color: #969696;
+    font-size: 16px;
+    font-family: "Manrope";
+    font-weight: 600;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+
+.new-price {
+    margin: 0;
+    color: #2C7EF8;
+    font-size: 22px;
+    font-family: "Manrope";
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 30.80px;
+    word-wrap: break-word;
+}
+
+.product-description {
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.description-text {
+    color: #4D5254;
+    font-size: 16px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 25.60px;
+    word-wrap: break-word;
+}
+
+.highlight-text {
+    color: #4D5254;
+    font-size: 16px;
+    font-family: "Manrope";
+    font-weight: 700;
+    line-height: 25.60px;
+    word-wrap: break-word;
+}
+
+.description-item-inner-box {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    background: #EDF3FD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.promotion-badge {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.highlight {
+    color: #2C7EF8;
+}
+
+.btn {
+    width: 100%;
+    height: 59px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #59AE43;
+    color: #FFF;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.security-badges {
+    margin: 0, 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px #CFCFCF solid;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.badge-stick {
+    color: #CFCFCF;
+}
+
+.payment-method-icons {
+    display: flex;
+    gap: 2px;
+}
+
+.reject-text {
+    margin: auto;
+    text-align: center;
+    color: #F82C2C;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.text-guarante {
+    color: #4D5254;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.text-guarante-strong {
+    color: #4D5254;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+#normal-text {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    /* 22px */
+    text-transform: capitalize;
+}
+
+#review-text {
+    align-self: stretch;
+    color: #4D5254;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+}
+
+#wait-text {
+    color: #000;
+    font-family: "Manrope";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 48px */
+    text-transform: capitalize;
+}
+
+#lorem {
+    color: #4D5254;
+    font-family: "Manrope";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 24px */
+    text-transform: capitalize;
+}
+
+#image4 {
+    width: 575px;
+    height: 591px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    padding-bottom: 24px;
+}
