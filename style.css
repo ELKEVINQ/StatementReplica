@@ -313,7 +313,7 @@ body {
     line-height: 140%;
 }
 
-#normal-text {
+.normal-text {
     color: #000;
     font-family: "Manrope";
     font-size: 20px;
@@ -324,7 +324,7 @@ body {
     text-transform: capitalize;
 }
 
-#review-text {
+.review-text {
     align-self: stretch;
     color: #4D5254;
     font-family: "Manrope";
@@ -335,29 +335,7 @@ body {
     /* 24px */
 }
 
-#wait-text {
-    color: #000;
-    font-family: "Manrope";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100%;
-    /* 48px */
-    text-transform: capitalize;
-}
-
-#lorem {
-    color: #4D5254;
-    font-family: "Manrope";
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 100%;
-    /* 24px */
-    text-transform: capitalize;
-}
-
-#image4 {
+.image4 {
     width: 575px;
     height: 591px;
     flex-shrink: 0;
