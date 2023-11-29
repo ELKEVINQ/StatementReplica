@@ -24,66 +24,6 @@
     font-size: 12px;
 }
 
-@media (max-width: 768px) {
-    .top-container {
-        position: relative;
-        width: 100%;
-    }
-
-    .list-group {
-        width: 100%;
-        justify-content: space-around;
-        background-color: #252F3D;
-        border-radius: 0;
-        padding: 0 20px;
-    }
-
-    .list-group-item {
-        border: none;
-        background-color: transparent;
-        color: white;
-        font-family: "Manrope";
-        font-size: 12px;
-        display: none;
-    }
-
-    .list-group-item:nth-child(1) {
-        display: block;
-    }
-
-    .arrow-left {
-        transform: translateY(-10%);
-        left: 0;
-        padding: 10px;
-        position: absolute;
-        background-color: transparent;
-        color: white;
-        border-radius: 5px;
-        cursor: pointer;
-        z-index: 1;
-    }
-
-    .arrow-right {
-        top: 50%;
-        transform: translateY(-70%);
-        position: absolute;
-        right: 0;
-        padding: 10px;
-        background-color: transparent;
-        color: white;
-        border-radius: 5px;
-        cursor: pointer;
-        z-index: 1;
-    }
-
-    .arrow-left:before {
-        content: "<";
-    }
-
-    .arrow-right:before {
-        content: ">";
-    }
-}
 
 .second-container {
     display: flex;
@@ -399,4 +339,134 @@
     flex-shrink: 0;
     border-radius: 10px;
     padding-bottom: 24px;
+}
+
+.main-img-alt {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .top-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .list-group {
+        width: 100%;
+        justify-content: space-around;
+        background-color: #252F3D;
+        border-radius: 0;
+        padding: 0 20px;
+    }
+
+    .list-group-item {
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-family: "Manrope";
+        font-size: 12px;
+        display: none;
+    }
+
+    .list-group-item:nth-child(1) {
+        display: block;
+    }
+
+    .arrow-left {
+        transform: translateY(-10%);
+        left: 0;
+        padding: 10px;
+        position: absolute;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .arrow-right {
+        top: 50%;
+        transform: translateY(-70%);
+        position: absolute;
+        right: 0;
+        padding: 10px;
+        background-color: transparent;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .arrow-left:before {
+        content: "<";
+    }
+
+    .arrow-right:before {
+        content: ">";
+    }
+
+    .second-container {
+        display: flex;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mcafee-logo {
+        width: 44px;
+        height: 16px;
+    }
+
+    .norton-logo {
+        width: 44px;
+        height: 16px;
+    }
+
+    .second-right {
+        display: flex;
+        align-items: flex-start;
+        gap: 32px;
+    }
+
+    .step {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .normal-text {
+        margin-top: 0;
+        /* Elimina el espacio entre el icono y el texto */
+        margin-bottom: 10px;
+        /* Agrega espacio debajo del texto */
+    }
+
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        margin: 12px;
+    }
+
+    .left-main {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        display: none;
+    }
+
+    .image4 {
+        max-width: 100%;
+        /* La imagen no puede ser más ancha que el contenedor */
+        height: auto;
+        /* Mantiene la proporción de aspecto de la imagen */
+        display: block;
+        /* Elimina el espacio adicional debajo de la imagen */
+    }
+
+    .main-img-alt {
+        display: block;
+    }
 }
